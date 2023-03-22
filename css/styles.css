@@ -1,0 +1,93 @@
+/* 
+font-family: 'Asap', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* General */
+
+body {
+
+}
+
+.container {
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+} 
+
+ul, li {
+    margin: 0;
+    padding-left: 0;
+}
+
+address {
+    font-style: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* General */
+
+/* Header */
+
+.header {
+}
+.container {
+}
+.header-nav {
+}
+.header-logo-svg {
+}
+.header-logo {
+}
+.link {
+}
+.header-list {
+}
+.header-item {
+}
+.list {
+}
+.header-item-link {
+}
+
+/* Header */
