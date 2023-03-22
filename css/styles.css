@@ -167,3 +167,38 @@ address {
 }
 
 /* Header */
+
+/* Hero */
+
+.hero {
+    padding-top: 25px;
+}
+
+.hero-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: var(--color-header);
+    width: 400px;
+}
+
+.hero-text {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: var(--color-header);
+width: 420px;
+}
+
+.hero-btn {
+
+}
+
+.hero-video {
+    display: flex;
+}
+
+/* Hero */
