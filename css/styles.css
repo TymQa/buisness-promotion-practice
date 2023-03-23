@@ -177,6 +177,12 @@ address {
 .hero-container {
     display: flex;
     gap: 35px;
+
+    background-image: url(../img/hero-img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
 }
 
 .hero-wrap {
@@ -207,6 +213,10 @@ address {
     color: var(--color-header);
 
     margin-top: 18px;
+}
+
+.hero-list {
+    margin-bottom: 112px;
 }
 
 .hero-btn {
