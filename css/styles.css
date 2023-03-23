@@ -38,8 +38,8 @@ a {
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 img {
@@ -172,38 +172,46 @@ address {
 
 .hero {
     padding-top: 25px;
+}
+
+.hero-container {
     display: flex;
+    gap: 35px;
+}
+
+.hero-wrap {
+    max-width: 465px;
+}
+
+.hero-img {
+    
 }
 
 .hero-title {
-    margin-top: 112px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.5;
     color: var(--color-header);
-    width: 400px;
+
+    margin-top: 112px;
 }
 
 .hero-text {
-    margin-top: 18px;
-
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.55;
     color: var(--color-header);
-    width: 420px;
+
+    margin-top: 18px;
 }
 
 .hero-btn {
-    border-radius: 4px;
-    background-color: var(--color-btn-up);
-    border: none;
-    padding: 14px 42px;
-    margin-right: 30px;
+    min-width: 178px;
+    height: 53px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -211,15 +219,12 @@ address {
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-white);
+    background-color: var(--color-btn-up);
+    border: none;
+    border-radius: 4px;
 }
 
-.hero-list {
-    display: flex;
-    margin-top: 45px;
-    align-items: center;
-}
-
-.hero-video {
+.hero-wtch-video {
     display: flex;
 
     font-family: 'Poppins';
@@ -227,15 +232,68 @@ address {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-btn-up);
+    text-decoration-line: underline;
+    color: var(--color-btn-up);    
 }
 
-.hero-video-triangle {
-    padding-right: 9px;
-}
-
-.hero-svg {
-    max-width: 610px;
+.hero-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+    align-items: center;
 }
 
 /* Hero */
+
+/* Feature */
+
+.feature {
+
+}
+
+.feature-title {
+    max-width: 535px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--color-header);
+
+    margin: 0 auto;
+}
+
+.feature-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.feature-item {
+
+}
+
+.feature-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--color-header);
+
+    margin-bottom: 13px;
+}
+
+.feature-text {
+    max-width: 255px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-header);
+}
+
+/* Feature */
