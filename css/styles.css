@@ -172,9 +172,12 @@ address {
 
 .hero {
     padding-top: 25px;
+    display: flex;
 }
 
 .hero-title {
+    margin-top: 112px;
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -185,20 +188,54 @@ address {
 }
 
 .hero-text {
+    margin-top: 18px;
+
     font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-color: var(--color-header);
-width: 420px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color-header);
+    width: 420px;
 }
 
 .hero-btn {
+    border-radius: 4px;
+    background-color: var(--color-btn-up);
+    border: none;
+    padding: 14px 42px;
+    margin-right: 30px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-white);
+}
+
+.hero-list {
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
 }
 
 .hero-video {
     display: flex;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-btn-up);
+}
+
+.hero-video-triangle {
+    padding-right: 9px;
+}
+
+.hero-svg {
+    max-width: 610px;
 }
 
 /* Hero */
