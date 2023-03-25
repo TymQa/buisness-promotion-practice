@@ -14,10 +14,15 @@ font-family: 'Roboto', sans-serif;
     --color-btn-in: #BCD0E5;
     --color-btn-up: #02897A;
     --color-white: #FFFFFF;
+    --color-managment: #22343D;
 }
 
 body {
 
+}
+
+button {
+    border: none;
 }
 
 .container {
@@ -172,6 +177,7 @@ address {
 
 .hero {
     padding-top: 25px;
+
 }
 
 .hero-container {
@@ -258,7 +264,20 @@ address {
 /* Feature */
 
 .feature {
+    background-image: url(../img/svg/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.feature-container {
+    
+}
+
+.feature-background {
 }
 
 .feature-title {
@@ -278,6 +297,7 @@ address {
     display: flex;
     gap: 30px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .feature-item {
@@ -306,4 +326,99 @@ address {
     color: var(--color-header);
 }
 
+.feature-cursor {
+    fill: var(--color-white);
+}
+
+.feature-icon {
+    margin-bottom: 26px;
+}
+
+.feature-button {
+    background-color: var(--color-btn-up);
+    border-radius: 4px;
+
+    display: block;
+    margin: 0 auto;
+    height: 53px;
+    width: 175px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-white);
+}
+
 /* Feature */
+
+/* Management */
+
+.management {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.manager-background {
+    height: 500px;
+    background-image: url(../img/svg/management-img.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.management-information {
+    max-width: 486px;
+    color: var(--color-managment);
+}
+
+.management-top-text {
+    margin-bottom: 8px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.management-title {
+    margin-bottom: 25px;
+
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.management-bottom-text {
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.management-subtitle-first {
+    margin-bottom: 12px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.management-text-first {
+    margin-bottom: 25px;
+
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.management-subtitle-second {
+    margin-bottom: 12px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.management-text-second {
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+/* Management */
