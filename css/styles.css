@@ -187,7 +187,7 @@ address {
     background-image: url(../img/hero-img.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: center right;
     
 }
 
@@ -362,7 +362,7 @@ address {
     height: 500px;
     background-image: url(../img/svg/management-img.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center right;
 
 }
 
