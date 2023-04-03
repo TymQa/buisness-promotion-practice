@@ -355,7 +355,6 @@ address {
 
 .management {
     padding-top: 50px;
-    padding-bottom: 100px;
 }
 
 .manager-background {
@@ -422,3 +421,79 @@ address {
 }
 
 /* Management */
+
+/* Support */
+
+.support {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.support-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+
+    background-image: url(../img/support-img.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.support-wrapper {
+}
+
+.support-top-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-header);
+    margin-bottom: 8px;
+    margin-top: 41px;
+}
+
+.support-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+    color: var(--color-header);
+    margin-bottom: 25px;
+}
+
+.support-bottom-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-header);
+    width: 476px;
+    margin-bottom: 30px;
+}
+
+.support-list {
+}
+
+.support-item {
+    width: 350px;
+    
+}
+
+.support-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-header);
+}
+
+.support-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+/* .support-icon-o {
+    background-color: #FF9900;
+    width: 35px;
+    height: 35px;
+    color: white;
+    fill: white;
+} */
+
+/* Support */
