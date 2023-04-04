@@ -475,7 +475,9 @@ address {
 }
 
 .support-item {
-    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .support-item-text {
@@ -487,6 +489,7 @@ address {
     display: flex;
     align-items: center;
     gap: 30px;
+    max-width: 385px;
 }
 
 .support-icon-o::before {
@@ -506,7 +509,7 @@ address {
 .support-icon-r::before {
     display: block;
     content: '';
-    width: 47px;
+    width: 35px;
     height: 35px;
 
     background-image: url(../img/support-icon.svg);
