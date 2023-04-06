@@ -254,6 +254,17 @@ address {
     color: var(--color-btn-up);    
 }
 
+.hero-icon-play {
+    fill: var(--color-btn-up);
+}
+
+.hero-item-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 9px;
+}
+
 .hero-list {
     display: flex;
     gap: 30px;
@@ -661,6 +672,14 @@ address {
     margin-top: 53px;
 }
 
+.process-comment-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
 .comment-wrapper-tl {
     width: 285px;
     height: 75px;
@@ -673,7 +692,7 @@ address {
 .process-comment-text {
     display: flex;
     justify-content: center;
-    padding-top: 13px;
+    padding-top: 14px;
 
     font-weight: 500;
     font-size: 16px;
@@ -695,12 +714,41 @@ address {
     margin: 0 18px;
 }
 
-/* .process-comment-avatar-l {
-    margin-right: 18px;
+.comment-wrapper-bl {
+    width: 285px;
+    height: 75px;
+
+    background-image: url(../img/process-cloud-l.svg);
+    background-position: center;
+    background-size: cover;
+}
+.process-comment-text-b {
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-comment);
 }
 
-.process-comment-avatar-r {
+.process-avatar-bl {
+    margin-right: 100px;
     margin-left: 18px;
-} */
+}
+
+.process-avatar-br {
+    margin-left: 18px;
+}
+
+.comment-wrapper-br {
+    width: 285px;
+    height: 75px;
+
+    background-image: url(../img/process-cloud-l.svg);
+    background-position: center;
+    background-size: cover;
+}
 
 /* Process */
