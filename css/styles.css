@@ -15,6 +15,7 @@ font-family: 'Roboto', sans-serif;
     --color-btn-up: #02897A;
     --color-white: #FFFFFF;
     --color-managment: #22343D;
+    --color-comment: #2F281E;
 }
 
 body {
@@ -615,3 +616,91 @@ address {
 }
 
 /* Collaboration */
+
+/* Process */
+
+.process {
+    padding-bottom: 100px;
+
+    /* background-image: url(../img/process-background.svg);
+    background-repeat: no-repeat;
+    background-position: ; */
+    
+}
+
+.process-container {
+    
+}
+
+.process-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--color-header);
+
+    margin-bottom: 25px;
+}
+
+.process-bottom-text {
+    max-width: 542px;
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--color-header);
+}
+
+.process-comment-top {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 53px;
+}
+
+.comment-wrapper-tl {
+    width: 285px;
+    height: 75px;
+
+    background-image: url(../img/process-cloud-l.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.process-comment-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-comment);
+}
+
+.comment-wrapper-tr {
+    width: 285px;
+    height: 75px;
+    margin-left: 115px;
+
+    background-image: url(../img/process-cloud-r.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.process-avatar {
+    margin: 0 18px;
+}
+
+/* .process-comment-avatar-l {
+    margin-right: 18px;
+}
+
+.process-comment-avatar-r {
+    margin-left: 18px;
+} */
+
+/* Process */
