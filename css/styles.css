@@ -631,16 +631,15 @@ address {
 /* Process */
 
 .process {
-    padding-bottom: 100px;
-
-    /* background-image: url(../img/process-background.svg);
+    background-image: url(../img/process-background.svg);
     background-repeat: no-repeat;
-    background-position: ; */
+    background-position: center;
+    background-size: 100%;
     
 }
 
 .process-container {
-    
+    padding-top: 50px;
 }
 
 .process-title {
@@ -650,6 +649,7 @@ address {
     text-align: center;
     color: var(--color-header);
 
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 
@@ -670,14 +670,13 @@ address {
     justify-content: center;
     
     margin-top: 53px;
+    margin-bottom: 25px;
 }
 
 .process-comment-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-top: 25px;
 }
 
 .comment-wrapper-tl {
@@ -733,13 +732,17 @@ address {
     color: var(--color-comment);
 }
 
+.process-avatar-b {
+    display: flex;
+    gap: 100px;
+}
+
 .process-avatar-bl {
-    margin-right: 100px;
     margin-left: 18px;
 }
 
 .process-avatar-br {
-    margin-left: 18px;
+    margin-right: 18px;
 }
 
 .comment-wrapper-br {
@@ -751,4 +754,91 @@ address {
     background-size: cover;
 }
 
+.process-btn {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-white);
+    background-color: var(--color-btn-up);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+
+    padding: 15px 30px;
+}
+
 /* Process */
+
+/* Strategies */
+
+.strategies {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.strategies-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.5;
+    color: var(--color-header);
+
+    margin-bottom: 10px;
+}
+
+.strategies-btm-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-header);
+    width: 430px;
+
+    margin-bottom: 40px;
+}
+
+.strategies-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.strategies-img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.strategies-item {
+    width: 350px;
+
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+}
+
+.strategies-item-text {
+    margin-top: 24px;
+    margin-bottom: 12px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-header);
+}
+
+.strategies-font-wight {
+    font-weight: 700;
+}
+
+.strategies-item-subtitle {
+    width: 296px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.66;
+    color: var(--color-header);
+
+}
+
+/* Strategies */
