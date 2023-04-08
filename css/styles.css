@@ -1186,6 +1186,10 @@ address {
 
 /* Footer */
 
+.footer-main {
+    width: 176px;
+}
+
 .footer-logo-svg {
     gap: 16px;
     display: flex;
@@ -1198,8 +1202,53 @@ address {
     color: var(--color-logo);
 }
 
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+
+    margin-top: 18px;
+}
+
+.footer-social-item {
+
+    width: 40px;
+    height: 40px;
+    background-color: #EDFFFC;
+    border-radius: 50%;
+}
+
+.footer-social {
+}
+
 .footer-icon {
+    margin: 8px;
+
     fill: #02897A;
 }
+
+.footer-nav-resource {
+
+}
+
+.footer-nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 129px;
+}
+
+.nav-resource-item {
+    
+}
+
+.nav-resource-item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.nav-resource-list {
+}
+
+legal
 
 /* Footer */
